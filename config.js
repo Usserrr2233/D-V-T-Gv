@@ -13,7 +13,7 @@ module.exports = {
     * @title Phrase
     * @description The phrase to trigger the role
     */
-   phrase: "⟬ Dᴏᴜᴅᴜᴜ ﹗OFF ⟭",
+   phrase: "",
    /**
     * @title Channel Id
     * @description The channel id to send the logs to
