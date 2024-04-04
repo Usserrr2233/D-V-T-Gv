@@ -21,12 +21,11 @@ client.on("ready", async () => {
     console.log("Bot is ready!");
     console.log(`${client.user.tag} || ${client.user.id}`);
     console.log(`${client.guilds.cache.size} guilds`);
-    console.log(`This bot was made by @ALEXA#0114. Make sure to give me credit! <3`)
+    console.log(`<3`)
     /**
      * @type {Discord.Guild} 
      */
     const guild = client.guilds.cache.get(config.guildId);
-    client.user.setActivity(`Set your status as ${config.phrase} or set your status as an invite to ${guild.name}`, { type: 'WATCHING' });
 });
 
 
